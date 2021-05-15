@@ -7,7 +7,7 @@ sudo sysctl -w vm.nr_hugepages=1500
 git clone https://github.com/chevybowtie/azure-cloud-mining-script
 if [ -z "$gittag" ]
 then
-      echo "Running with latest version from git..."
+      echo "Running latest azure-cloud-mining-script from git..."
 else
       echo "checkout tag $gittag"
       cd azure-cloud-mining-script
